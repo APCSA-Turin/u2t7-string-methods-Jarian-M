@@ -2,22 +2,24 @@ public class CustomStringMethodsRunner {
     public static void main(String[] args) {
     CustomStringMethods methods = new CustomStringMethods();
     
-    String str = methods.halvesReversed("computer");  //even # of letters
+    String str = methods.yellOrWhisper("Hello James!");
 System.out.println(str);
-str = methods.halvesReversed("computers");        //odd # of letters
+str = methods.yellOrWhisper("hello James!");
 System.out.println(str);
-str = methods.halvesReversed("sky");
+str = methods.yellOrWhisper("aBCDEFGHIJK");
 System.out.println(str);
-str = methods.halvesReversed("weekend");
+str = methods.yellOrWhisper("Abcdefghijk");
 System.out.println(str);
-str = methods.halvesReversed("an");
+str = methods.yellOrWhisper("B");
 System.out.println(str);
-str = methods.halvesReversed("I");
+str = methods.yellOrWhisper("b");
 System.out.println(str);
-str = methods.halvesReversed("see you soon");
+str = methods.yellOrWhisper("IT'S SUNNY!");
 System.out.println(str);
-str = methods.halvesReversed("see you later!");
+str = methods.yellOrWhisper("it's rainy");
 System.out.println(str);
+
+
 
     }
 }
