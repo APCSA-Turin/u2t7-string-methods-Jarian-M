@@ -144,4 +144,17 @@ public class CustomStringMethods {
         return myString.toLowerCase();
     }
   }
+
+  public String starBetween(String str) {
+    int len = str.length();
+    String starStr = str.substring(0,1);
+    int num = 1;
+    while(num < len) {
+      if(num < len) {
+      starStr += "*" + str.substring(num, num + 1);
+      num ++;
+      }
+    }
+    return starStr;
+  }
 }
